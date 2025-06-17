@@ -1,0 +1,276 @@
+@media screen and (max-width: 991px) {
+    :root{
+        --primary-heading: 2.2rem;
+    --secondary-heading: 1.5rem;
+    --content-text: 15px;
+    --button-font-size: 15px;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .nav-button{
+        display: block;
+        margin-right: 50px;
+        font-size: 27px;
+    }
+    .nav-bar{
+        position: relative;
+        overflow: initial;
+    }
+    .nav-div{
+        position: absolute;
+        top: 100%;
+        right: 100%;
+        background-image: var(--nav-background-image);
+        width: 100%;
+    }
+    .nav-div.active{
+        left: 0%;
+    }
+    .nav-div{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .nav-content{
+        justify-content: flex-end;
+    }
+    .welcome-image{
+        width: 100%;
+        height: 300px;
+    }
+    .welcome-image h1{
+        font-size: 3.1rem;
+    }
+
+    .company-div , .company-div.company-div:nth-child(2n){
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .company-image{
+        align-self: stretch;
+    }
+    .company-image img{
+        height: 300px;
+    }
+    .company-desc{
+        padding-left: 0;
+    }
+    .learn-button{
+        padding: 7px;
+    }
+    .product-content{
+        flex-basis: 37%;
+        height: 200px;
+    }
+    .icons{
+        width: 20%;
+        justify-content: space-between;
+        gap: 25px;
+        align-items: center;
+        padding-left: 35px;
+    }
+    .fa-brands{
+        font-size: 22px;
+    }
+    .footer-list{
+        font-size: 16px;
+    }
+    #footer-image{
+        width: 95px;
+        height: 95px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    :root{
+        --primary-heading: 2rem;
+        --secondary-heading: 1.2rem;
+        --content-text: 15px;
+        --button-font-size: 15px;
+    }
+    .heading{
+        font-size: 1.8rem;
+    }
+    .nav-button{
+        display: block;
+        margin-right: 50px;
+        font-size: 25px;
+    }
+    .nav-content{
+        justify-content: flex-end;
+    }
+    .welcome-div{
+        padding-block: 10px;
+        margin-bottom: 10px;
+    }
+    .welcome-image{
+        width: 100%;
+        height: 230px;
+    }
+    .welcome-image h1{
+        font-size: 2.5rem;
+    }
+
+    .company-div , .company-div.company-div:nth-child(2n){
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+    }
+    .company-div{
+        gap: 5px;
+    }
+    .company-image{
+        align-self: stretch;
+    }
+    .company-image img{
+        height: 200px;
+    }
+    .company-desc{
+        padding-left: 0;
+        gap: 3px;
+    }
+    .learn-button{
+        padding: 7px;
+    }
+    .product-content{
+        flex-basis: 37%;
+        height: 150px;
+    }
+    .desc-button{
+        padding-top: 10px;
+    }
+    .icons{
+        width: 20%;
+        justify-content: space-between;
+        gap: 25px;
+        align-items: center;
+        padding-left: 35px;
+    }
+    .fa-brands{
+        font-size: 22px;
+    }
+    .body-div{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+        text-align: center;
+    }
+    .footer-list{
+        font-size: 14px;
+    }
+    #footer-image{
+        width: 85px;
+        height: 85px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    :root{
+        --primary-heading: 1.5rem;
+        --secondary-heading: 1rem;
+        --content-text: 12px;
+        --button-font-size: 15px;
+    }
+    .heading{
+        font-size: 1.2rem;
+    }
+    .nav-button{
+        font-size: 20px;
+    }
+    .nav-content{
+        justify-content: flex-end;
+    }
+    .welcome-div{
+        /* margin: 10px 0; */
+        padding: 0;
+        margin: 0;
+    }
+    .welcom-div{
+        width: 90%;
+        justify-content: center;
+        margin: 0 auto;
+        padding-block: 10px;
+        margin-bottom: 10px;
+}
+    .welcome-image{
+        width: 100%;
+        height: 150px;
+    }
+    .welcome-image h1{
+        font-size: 1.8rem;
+    }
+
+    .company-div , .company-div.company-div:nth-child(2n){
+        flex-direction: column;
+        align-items: stretch;
+        /* padding: 25px; */
+    }
+    .company-div{
+        width: 100%;
+        gap: 5px;
+    }
+    .company-image{
+        align-self: stretch;
+    }
+    .company-image img{
+        height: 160px;
+    }
+    .company-desc{
+        padding-left: 0;
+        gap: 3px;
+    }
+    .learn-button{
+        padding: 7px;
+        
+    }
+    .company-container{
+        gap: 10px;
+    }
+    .desc-button{
+        padding-top: 10px;
+    }
+    .product-desc{
+        margin: 0 auto;
+    }
+    .product-content{
+        flex-basis: 70%;
+        /* width: 100px;
+        height: 100px;
+         */
+    }
+    .flex-div{
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* background-color: red; */
+    }
+    .product-div{
+        justify-content: center;
+        margin-block: 30px;
+    }
+    .icons{
+        width: 20%;
+        justify-content: space-between;
+        gap: 25px;
+        align-items: center;
+        padding-left: 30px;
+    }
+    .fa-brands{
+        font-size: 22px;
+    }
+    .body-div{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+        text-align: center;
+    }
+    .footer-list{
+        font-size: 13px;
+    }
+    #footer-image{
+        width: 75px;
+        height: 75px;
+    }
+}

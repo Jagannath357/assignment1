@@ -1,0 +1,18 @@
+@media screen and (max-width: 991px) {
+    .blog-image{
+        width: 80%;
+        height: 330px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .blog-image{
+        width: 80%;
+        height: 245px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .blog-image{
+        width: 80%;
+        height: 130px;
+    }
+}
