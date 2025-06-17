@@ -154,7 +154,7 @@ li{
     width: 90%;
     height: 400px;
     justify-content: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1) , rgba(30, 29, 29, 0.6)) , url("./files/images/welcom.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1) , rgba(30, 29, 29, 0.6)) , url("../files/images/welcom.png");
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -266,7 +266,7 @@ section{
     flex-basis: 20%;
     height: 200px;
     text-align: center;
-    background-image: linear-gradient( rgb(0, 0, 0,0.1), rgb(0,0,0,0.7)) , url("./files/images/product1.jpg");
+    background-image: linear-gradient( rgb(0, 0, 0,0.1), rgb(0,0,0,0.7)) , url("../files/images/product1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
@@ -281,19 +281,19 @@ section{
     right: 20px;
 }
 .product-content:nth-child(2){
-    background-image: linear-gradient( rgb(0, 0, 0,0.1), rgb(0,0,0,0.7)) , url("./files/images/product3.jpg");
+    background-image: linear-gradient( rgb(0, 0, 0,0.1), rgb(0,0,0,0.7)) , url("../files/images/product3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
 }
 .product-content:nth-child(3){
-    background-image: linear-gradient( rgb(0, 0, 0,0.1), rgb(0,0,0,0.7)) , url("./files/images/product2.jpg");
+    background-image: linear-gradient( rgb(0, 0, 0,0.1), rgb(0,0,0,0.7)) , url("../files/images/product2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
 }
 .product-content:nth-child(4){
-    background-image: linear-gradient( rgb(0, 0, 0,0.1), rgb(0,0,0,0.7)) , url("./files/images/product4.jpg");
+    background-image: linear-gradient( rgb(0, 0, 0,0.1), rgb(0,0,0,0.7)) , url("../files/images/product4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
